@@ -1,0 +1,6 @@
+--- # my taget section playbook
+- hosts : webservers
+  user  : ansible
+  become : yes
+  connection : ssh  
+
